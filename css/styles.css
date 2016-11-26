@@ -96,10 +96,10 @@ body {
 
 .about__container p {
     font-family: 'open sans', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     color: rgba(255,255,255, .75);
     text-align: left;
-    line-height: 1.6em;
+    line-height: 1.7em;
     width: 85%;
     margin: 1em auto 3em auto;
     
