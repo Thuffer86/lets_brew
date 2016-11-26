@@ -27,7 +27,7 @@ body {
 .nav__container li {
     display: inline-block;
     line-height: 60px;
-    font-size: 11px;
+    font-size: 12px;
     margin: 0 6px;
 }
 
@@ -203,4 +203,71 @@ body {
     width: 25px;
     height: 25px;
     margin: 0 10px;
+}
+
+@media (min-width: 600px) {
+    
+    .header__container {
+        height: 500px;
+    }
+    
+    .header__container h1,h2,h3 {
+        line-height: 90px;
+}
+    .header__container h1 {
+        font-size: 4em;
+}
+
+    .header__container h2 {
+        font-size: 5em;
+
+}
+
+    .header__container h3 {
+        font-size: 1.2em;
+
+}
+    
+    .about__container h2 {
+        font-size: 1.6em;   
+    }
+    
+    .recipe__img {
+    height: 350px;
+    }
+    
+    .recipe__description {
+        padding: 4em 0;
+    }
+    
+}
+
+@media (min-width: 900px) {
+    
+    .header__container {
+        height: 700px;
+    }
+    
+    .header__container h1 {
+        font-size: 5em;
+}
+
+    .header__container h2 {
+        font-size: 6em;
+
+}
+
+    .header__container h3 {
+        font-size: 1.6em;
+
+}
+    
+    .about__container {
+        padding: 6em 0;
+    }
+    
+    .about__container p {
+        width: 60%;
+    }
+    
 }
