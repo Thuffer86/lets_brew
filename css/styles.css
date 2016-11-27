@@ -183,6 +183,10 @@ body {
     height: 50px;
 }
 
+    .recipe__description button:hover {
+        background-color: #de4947;
+    }
+
 .footer__container {
     border-top: solid 1px #f9f9fb;
     background-color: #132440;
@@ -279,7 +283,7 @@ body {
     
     .recipe__img {
         float: left;
-        width: 50%;
+        width: 65%;
         padding: 0;
         margin: 0;
         height: 500px;
@@ -307,7 +311,7 @@ body {
     
     .recipe__description {
         float: right;
-        width: 50%;
+        width: 35%;
         padding: 0;
         margin: 0;
         height: 500px;
@@ -317,6 +321,7 @@ body {
     
     .footer__container {
         clear: both;
+        border: none;
     }
     
     .recipe__container:nth-child(odd) .recipe__img {
